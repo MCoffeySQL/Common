@@ -10,6 +10,7 @@ CREATE TABLE dbo.symbols(
   hex VARCHAR(4) NULL,
   html VARCHAR(8) NULL,
   morse VARCHAR(24) NULL,
-  [description] VARCHAR(64)
+  shortDescription VARCHAR(64)
   );
 GO
+
