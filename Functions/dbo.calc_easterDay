@@ -1,0 +1,69 @@
+USE Common;
+GO
+
+DROP FUNCTION IF EXISTS dbo.calc_easterDay;
+GO
+
+CREATE FUNCTION dbo.calc_easterDay 
+  (@year INT)
+	RETURNS DATE
+	WITH EXECUTE AS CALLER
+AS
+BEGIN
+
+	DECLARE
+		@y INT,
+		@a INT,
+		@b INT,
+		@c INT,
+		@d INT,
+		@e INT,
+		@g INT,
+		@h INT,
+		@j INT,
+		@k INT,
+		@m INT,
+		@r INT,
+		@n INT,
+		@p INT,
+		@easterDay DATE
+
+		SET @y = @year;
+		SET @a = @y % 19;
+		SET @b = @y / 100;
+		SET @c = @y % 100;
+		SET @d = @b / 4;
+		SET @e = @b % 4;
+		SET @g = (8 * (@b + 13)) / 25;
+		SET @h = (19 * (@a + @b - @d - @g + 15)) % 30;
+		SET @j = @c / 4;
+		SET @k = @c % 4;
+		SET @m = ((@a + 11) * @h) / 319;
+		SET @r = (2 * (@e + 2 * @j - @k - @h + @m + 32)) % 7;
+		SET @n = (@h - @m + @r + 90) / 25;
+		SET @p = (@h - @m + @r + @n + 19) % 32;
+
+		SET @easterDay = RIGHT('0' + CAST(@n AS VARCHAR),2) + '/' + 
+				RIGHT('0' + CAST(@p AS VARCHAR),2) + '/' + 
+				CAST(@y AS VARCHAR);
+
+		RETURN @easterDay;
+END
+GO
+
+			----//-- Debugging
+			--PRINT '@year = ' + ISNULL(CAST(@year AS VARCHAR),'-0000');
+			--PRINT '@y = ' + ISNULL(CAST(@y AS VARCHAR),'-0');
+			--PRINT '@a = ' + ISNULL(CAST(@a AS VARCHAR),'-0');
+			--PRINT '@b = ' + ISNULL(CAST(@b AS VARCHAR),'-0');
+			--PRINT '@c = ' + ISNULL(CAST(@c AS VARCHAR),'-0');
+			--PRINT '@d = ' + ISNULL(CAST(@d AS VARCHAR),'-0');
+			--PRINT '@e = ' + ISNULL(CAST(@e AS VARCHAR),'-0');
+			--PRINT '@g = ' + ISNULL(CAST(@g AS VARCHAR),'-0');
+			--PRINT '@h = ' + ISNULL(CAST(@h AS VARCHAR),'-0');
+			--PRINT '@j = ' + ISNULL(CAST(@j AS VARCHAR),'-0');
+			--PRINT '@m = ' + ISNULL(CAST(@m AS VARCHAR),'-0');
+			--PRINT '@r = ' + ISNULL(CAST(@r AS VARCHAR),'-0');
+			--PRINT '@n = ' + ISNULL(CAST(@n AS VARCHAR),'-0');
+			--PRINT '@p = ' + ISNULL(CAST(@p AS VARCHAR),'-0');
+			--PRINT '@easterDay = ' + CAST(@easterDay AS VARCHAR);
