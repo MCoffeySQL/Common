@@ -6,6 +6,7 @@ GO
 
 CREATE TABLE dates(
   id INT IDENTITY(1,1) NOT NULL,
+  isActive INT NOT NULL,
   aDate DATE NOT NULL,
   aYear INT NOT NULL,
   aMonth INT NOT NULL,
