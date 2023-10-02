@@ -7,13 +7,15 @@ SET STATISTICS TIME OFF
 
 SET DATEFIRST 7 -- Sunday will be first day of week.
 
+DELETE
+FROM dbo.dates;
+
 DECLARE
   @i INT = 0,
   @d INT = 1,
   @startDate DATE = CAST('03/01/1873' AS DATE),
   @endDate DATE = CAST('03/01/2173' AS DATE),
   @aDate DATE
-
 
 WHILE DATEADD(DAY,@i,@startDate) >= @startDate 
   AND DATEADD(DAY,@i,@startDate) <= @endDate
@@ -93,3 +95,8 @@ BEGIN
   ;
 
 END
+
+
+
+
+SELECT * FROM dbo.dates ORDER BY aDate
