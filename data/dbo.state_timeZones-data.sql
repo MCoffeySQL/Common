@@ -1,0 +1,75 @@
+USE Common;
+GO
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+SET NOCOUNT ON;
+GO
+
+TRUNCATE TABLE dbo.state_timeZones;
+GO
+
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'AL','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'AK','AKST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'AK','HST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'AZ','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'AR','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'CA','PST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'CO','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'CT','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'DE','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'DC','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'FL','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'FL','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'GA','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'HI','HST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'ID','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'ID','PST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'IL','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'IN','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'IN','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'IA','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'KS','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'KS','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'KY','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'KY','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'LA','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'ME','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MD','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MI','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MI','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MN','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MS','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MO','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'MT','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NE','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NE','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NV','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NV','PST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NH','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NJ','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NM','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NY','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'NC','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'ND','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'ND','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'OH','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'OK','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'OR','PST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'OR','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'PA','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'PR','AST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'RI','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'SC','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'SD','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'SD','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'TN','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'TN','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'TX','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'TX','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'UT','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'VT','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'VA','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'WA','PST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'WV','EST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'WI','CST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
+INSERT INTO dbo.state_timeZones(isActive,[postal],[zone],shortDescription,dateCreated,dateModified,createdBy,modifiedBy)VALUES(1,'WY','MST',NULL,'Apr  3 2024 12:24PM','Apr  3 2024 12:24PM','Lenovo02\pages','Lenovo02\pages');
